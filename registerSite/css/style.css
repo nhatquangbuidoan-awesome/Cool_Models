@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box h2 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: url(https://img.pikbest.com/wp/202346/website-online-syrian-shopping-comes-alive-a-3d-render-for-social-media-and-websites_9728401.jpg!bw700);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1080px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: white;
+    height: 600px;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.16);
+    position: fixed;
+    top: 70px;
+}
+
+.box input {
+    padding: 5px;
+    height: 30px;
+    width: 290px;
+    border: none;
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.16);
+    border-radius: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+.box input:hover {
+    border-bottom: 3px solid rgb(104, 104, 255);
+}
+
+.box input:active {
+    border: none;
+}
+
+.box input ::placeholder {
+    font-size: medium;
+    padding-left: 20px;
+}
+
+.box button {
+    position: relative;
+    width: 300px;
+    border: none;
+    box-sizing: border-box;
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.16);
+    border-radius: 15px;
+    background-color: dodgerblue;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.box button:hover {
+    background-color: rgb(70, 163, 255);
+}
+
+.box button:active {
+    background-color: rgba(34, 30, 255, 0.76);
+}
+
+.box button > p {
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.back-btn button {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(39, 39, 39);
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: large;
+    justify-content: center;
+    padding: 20px;
+    margin: 40px;
+    border: 2px transparent;
+    border-radius: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+.back-btn button a {
+    color: white;
+    text-decoration: none;
+}
+
+.back-btn button:hover {
+    border: 2px solid goldenrod;
+}
+
+.back-btn button:active {
+    background-color: rgb(83, 83, 83);
+}

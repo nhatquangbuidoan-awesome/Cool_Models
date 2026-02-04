@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://cdn.pixabay.com/photo/2021/07/15/08/43/abstract-6467846_1280.png);
+}
+
+.announcement {
+    text-align: center;
+    padding: 40px;
+    color: white;
+}
+
+.announcement h1:hover {
+    transform: translateY(-5px);
+    transition: 0.2s ease-in-out;
+}
+
+.announcement p:hover {
+    transform: translateY(-5px);
+    transition: 0.2s ease-in-out;
+}
+
+.displaying-image img {
+    margin-left: 440px;
+    border: 3px solid rgb(194, 193, 193);
+    border-radius: 15px;
+    object-fit: cover;
+    box-sizing: border-box;
+    box-shadow: 0 0 19px 0 rgba(0, 0, 0, 0.16);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.displaying-image img:hover {
+    transform: translateY(-10px);
+}
+
+.displaying-image img:active {
+    z-index: -20px;
+}
+
+.back-btn button {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(39, 39, 39);
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: large;
+    justify-content: center;
+    padding: 20px;
+    margin: 40px;
+    border: 2px transparent;
+    border-radius: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+.back-btn button a {
+    color: white;
+    text-decoration: none;
+}
+
+.back-btn button:hover {
+    border: 2px solid goldenrod;
+}
+
+.back-btn button:active {
+    background-color: rgb(83, 83, 83);
+}
